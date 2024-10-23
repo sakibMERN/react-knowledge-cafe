@@ -1,6 +1,7 @@
 import { data } from "autoprefixer";
 import { useEffect } from "react";
 import { useState } from "react";
+import Blog from "../Blog/Blog";
 
 
 const Blogs = () => {
@@ -13,8 +14,9 @@ const Blogs = () => {
     },[])
     console.log(blogs);
     return (
-        <div>
-            <h2>Blogs</h2>
+        <div className="md:w-2/3">
+            <h2>Blogs: {blogs.length}</h2>
+            <Blog></Blog>
         </div>
     );
 };
