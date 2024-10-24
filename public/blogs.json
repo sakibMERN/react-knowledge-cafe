@@ -1,48 +1,52 @@
 [
-    {
-      "id": 1,
-      "cover_photo": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
-      "title": "Exploring Knowledge Cafés: The Future of Collaborative Learning",
-      "author_img": "https://randomuser.me/api/portraits/men/6.jpg",
-      "posted_date": "2024-10-12",
-      "reading_time": 6,
-      "hashtags": ["#KnowledgeCafe", "#Collaboration", "#Learning"]
-    },
-    {
-      "id": 2,
-      "cover_photo": "https://images.unsplash.com/photo-1542831371-d531d36971e6",
-      "title": "How Knowledge Cafés are Changing Professional Development",
-      "author_img": "https://randomuser.me/api/portraits/women/7.jpg",
-      "posted_date": "2024-09-25",
-      "reading_time": 7,
-      "hashtags": ["#ProfessionalDevelopment", "#KnowledgeSharing", "#Growth"]
-    },
-    {
-      "id": 3,
-      "cover_photo": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38",
-      "title": "Boosting Creativity with Knowledge Cafés",
-      "author_img": "https://randomuser.me/api/portraits/men/8.jpg",
-      "posted_date": "2024-10-05",
-      "reading_time": 5,
-      "hashtags": ["#Creativity", "#KnowledgeCafe", "#Brainstorming"]
-    },
-    {
-      "id": 4,
-      "cover_photo": "https://images.unsplash.com/photo-1533612608997-212b06408bb9",
-      "title": "The Impact of Knowledge Cafés on Organizational Learning",
-      "author_img": "https://randomuser.me/api/portraits/women/9.jpg",
-      "posted_date": "2024-10-17",
-      "reading_time": 8,
-      "hashtags": ["#OrganizationalLearning", "#KnowledgeSharing", "#Collaboration"]
-    },
-    {
-      "id": 5,
-      "cover_photo": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38",
-      "title": "Best Practices for Running a Successful Knowledge Café",
-      "author_img": "https://randomuser.me/api/portraits/men/10.jpg",
-      "posted_date": "2024-10-20",
-      "reading_time": 6,
-      "hashtags": ["#BestPractices", "#KnowledgeCafe", "#Leadership"]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "cover_photo": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+    "title": "Exploring Knowledge Cafés: The Future of Collaborative Learning",
+    "author": "John Doe",
+    "author_img": "https://randomuser.me/api/portraits/men/6.jpg",
+    "posted_date": "2024-10-12",
+    "reading_time": "6 min read",
+    "hashtags": ["#KnowledgeCafe", "#Collaboration", "#Learning"]
+  },
+  {
+    "id": 2,
+    "cover_photo": "https://images.unsplash.com/photo-1542831371-d531d36971e6",
+    "title": "How Knowledge Cafés are Changing Professional Development",
+    "author": "Jane Smith",
+    "author_img": "https://randomuser.me/api/portraits/women/7.jpg",
+    "posted_date": "2024-09-25",
+    "reading_time": "7 min read",
+    "hashtags": ["#ProfessionalDevelopment", "#KnowledgeSharing", "#Growth"]
+  },
+  {
+    "id": 3,
+    "cover_photo": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38",
+    "title": "Boosting Creativity with Knowledge Cafés",
+    "author": "Michael Brown",
+    "author_img": "https://randomuser.me/api/portraits/men/8.jpg",
+    "posted_date": "2024-10-05",
+    "reading_time": "5 min read",
+    "hashtags": ["#Creativity", "#KnowledgeCafe", "#Brainstorming"]
+  },
+  {
+    "id": 4,
+    "cover_photo": "https://images.unsplash.com/photo-1533612608997-212b06408bb9",
+    "title": "The Impact of Knowledge Cafés on Organizational Learning",
+    "author": "Emily Davis",
+    "author_img": "https://randomuser.me/api/portraits/women/9.jpg",
+    "posted_date": "2024-10-17",
+    "reading_time": "8 min read",
+    "hashtags": ["#OrganizationalLearning", "#KnowledgeSharing", "#Collaboration"]
+  },
+  {
+    "id": 5,
+    "cover_photo": "https://images.unsplash.com/photo-1504386106331-3e4e71712b38",
+    "title": "Best Practices for Running a Successful Knowledge Café",
+    "author": "David Wilson",
+    "author_img": "https://randomuser.me/api/portraits/men/10.jpg",
+    "posted_date": "2024-10-20",
+    "reading_time": "6 min read",
+    "hashtags": ["#BestPractices", "#KnowledgeCafe", "#Leadership"]
+  }
+]
