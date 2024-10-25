@@ -1,12 +1,12 @@
 import PropTypes from 'prop-types';
 import { FaBookMedical } from "react-icons/fa6";
 
-const Blog = ({blog, handleAddBookmark}) => {
+const Blog = ({blog, handleAddBookmark, handleMarkAsRead}) => {
 const {title, cover, cover_photo, author, author_img, posted_date, reading_time, hashtags} = blog;
 // console.log(blog);
     return (
         <div className='mb-10'>
-            <img className='rounded-xl' src={cover_photo} alt={`Title of the cover picture {title}`} />
+            <img className='w-full md:h-[450px] object-cover rounded-xl' src={cover_photo} alt={`Title of the cover picture {title}`} />
             <div className='flex justify-between items-center mt-8 mb-4'>
                 <div className='flex gap-6'>
                     <img className='w-14 rounded-full' src={author_img} alt="" />
@@ -23,10 +23,10 @@ const {title, cover, cover_photo, author, author_img, posted_date, reading_time,
             <h2 className="text-[40px] font-bold text-left leading-[160%] mb-4">{title}</h2>
             <div className='flex gap-4 text-xl font-medium opacity-60 mb-5'>
                 {
-                    hashtags.map((hashtag, index) => <a key={index}>{hashtag}</a>)
+                    hashtags.map((hashtag, index) => <a href='#' key={index}>{hashtag}</a>)
                 }
             </div>
-            <p className='text-xl text-[#6047EC] text-left font-semibold underline mb-9'><a href="" >Mark As Read</a></p>
+            <button onClick={() => handleMarkAsRead(reading_time)} className='text-xl text-[#6047EC] text-left font-semibold underline mb-9'>Mark As Read</button>
             <hr />
         </div>
     );
@@ -34,7 +34,8 @@ const {title, cover, cover_photo, author, author_img, posted_date, reading_time,
 
 Blog.propTypes = {
     blog: PropTypes.object.isRequired,
-    handleAddBookmark: PropTypes.func
+    handleAddBookmark: PropTypes.func,
+    handleMarkAsRead: PropTypes.number
 }
 
 export default Blog;

@@ -6,7 +6,7 @@
     "author": "John Doe",
     "author_img": "https://randomuser.me/api/portraits/men/6.jpg",
     "posted_date": "2024-10-12",
-    "reading_time": "6 min read",
+    "reading_time": 6,
     "hashtags": ["#KnowledgeCafe", "#Collaboration", "#Learning"]
   },
   {
@@ -16,7 +16,7 @@
     "author": "Jane Smith",
     "author_img": "https://randomuser.me/api/portraits/women/7.jpg",
     "posted_date": "2024-09-25",
-    "reading_time": "7 min read",
+    "reading_time": 7,
     "hashtags": ["#ProfessionalDevelopment", "#KnowledgeSharing", "#Growth"]
   },
   {
@@ -26,7 +26,7 @@
     "author": "Michael Brown",
     "author_img": "https://randomuser.me/api/portraits/men/8.jpg",
     "posted_date": "2024-10-05",
-    "reading_time": "5 min read",
+    "reading_time": 5,
     "hashtags": ["#Creativity", "#KnowledgeCafe", "#Brainstorming"]
   },
   {
@@ -36,7 +36,7 @@
     "author": "Emily Davis",
     "author_img": "https://randomuser.me/api/portraits/women/9.jpg",
     "posted_date": "2024-10-17",
-    "reading_time": "8 min read",
+    "reading_time": 8,
     "hashtags": ["#OrganizationalLearning", "#KnowledgeSharing", "#Collaboration"]
   },
   {
@@ -46,7 +46,7 @@
     "author": "David Wilson",
     "author_img": "https://randomuser.me/api/portraits/men/10.jpg",
     "posted_date": "2024-10-20",
-    "reading_time": "6 min read",
+    "reading_time": 6,
     "hashtags": ["#BestPractices", "#KnowledgeCafe", "#Leadership"]
   }
 ]
